@@ -1,0 +1,70 @@
+/* 
+
+Colours to use!
+
+black
+#010101
+
+pinkish
+#A10F4E
+
+cyan
+#0CD7F8
+
+
+*/
+
+html {
+    margin: 0%;
+}
+
+header {
+    color: #A10F4E;
+    background-image: url("pexels-ezequiel-da-silva-2902536.jpg");
+    filter: invert(10%);
+}
+
+h1:hover {
+    transform: scaleX(-1);
+}
+
+
+/*
+i:hover {
+    transform: scaleX(-1);
+}
+*/
+
+.topnav {
+    background-color: #A10F4E;
+    overflow: hidden;
+}
+
+
+/* make nav colored*/
+
+.topnav a {
+    float: left;
+    color: #0CD7F8;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* mouse hover over change color to dj theme*/
+
+.topnav a:hover {
+    background-color: #D0D98F;
+    color: #010101;
+}
+
+.part1 {
+    background-image: linear-gradient(#A10F4E, #0CD7F8);
+    padding: 10% 3% 10% 3%;
+}
+
+section div img {
+    width: 100%;
+}
