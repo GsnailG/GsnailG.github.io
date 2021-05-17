@@ -1,0 +1,66 @@
+/* 
+Colours to use!
+
+white
+#F2F2F2
+
+orange
+#F2A03D
+
+types of green
+#D0D98F
+#B2BF50
+#5F7336
+
+*/
+
+html {
+    margin: 0%;
+}
+
+header {
+    color: #F2A03D;
+    background-image: url("IMG_1166.JPG");
+    filter: invert(10%);
+}
+
+h1:hover {
+    transform: scaleX(-1);
+}
+
+
+/*
+i:hover {
+    transform: scaleX(-1);
+}
+*/
+
+.topnav {
+    background-color: #D0D98F;
+    overflow: hidden;
+}
+
+
+/* make nav colored*/
+
+.topnav a {
+    float: left;
+    color: #010101;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* mouse hover over change color to dj theme*/
+
+.topnav a:hover {
+    background-color: #A10F4E;
+    color: #0CD7F8;
+}
+
+section {
+    background-image: linear-gradient(#F2A03D, #D0D98F);
+    padding: 10% 3% 10% 3%;
+}
