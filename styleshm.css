@@ -14,15 +14,33 @@ types of green
 
 */
 
+
+/* this is to make the website go all the way to the edges of the website*/
+
 html {
     margin: 0%;
+    padding: 0%;
 }
+
+
+/* this is to make the website go all the way to the edges of the website*/
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*makes header flip apon hover, also makes the header look nicer, the color is the font color*/
 
 header {
     color: #F2A03D;
     background-image: url("IMG_1166.JPG");
     filter: invert(10%);
 }
+
+
+/*makes it so when hovered over, it flips*/
 
 h1:hover {
     transform: scaleX(-1);
