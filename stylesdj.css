@@ -14,9 +14,24 @@ cyan
 
 */
 
+
+/* this is to make the website go all the way to the edges of the website*/
+
 html {
     margin: 0%;
+    padding: 0%;
 }
+
+
+/* this is to make the website go all the way to the edges of the website*/
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*makes header flip apon hover, also makes the header look nicer, the color is the font color*/
 
 header {
     color: #A10F4E;
