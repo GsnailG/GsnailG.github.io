@@ -88,3 +88,8 @@ section {
 .introblurb {
     font-size: 4vw;
 }
+
+.flipphoneandkeyboard img {
+    width: 100%;
+    height: auto;
+}
