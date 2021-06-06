@@ -1,16 +1,16 @@
 /* 
+
 Colours to use!
 
-white
-#F2F2F2
+black
+#010101
 
-orange
-#F2A03D
+pinkish
+#A10F4E
 
-types of green
-#D0D98F
-#B2BF50
-#5F7336
+cyan
+#0CD7F8
+
 
 */
 
@@ -34,10 +34,9 @@ body {
 /*makes header flip apon hover, also makes the header look nicer, the color is the font color*/
 
 header {
-    color: #F2A03D;
-    background-image: url("IMG_1166.JPG");
+    color: #A10F4E;
+    background-image: url("img/pexels-ezequiel-da-silva-2902536.jpg");
     filter: invert(10%);
-    margin: 0%;
 }
 
 
@@ -46,9 +45,6 @@ header {
 header h1 {
     margin-top: 0;
 }
-
-
-/*makes it so when hovered over, it flips*/
 
 h1:hover {
     transform: scaleX(-1);
@@ -62,7 +58,7 @@ i:hover {
 */
 
 .topnav {
-    background-color: #D0D98F;
+    background-color: #A10F4E;
     overflow: hidden;
 }
 
@@ -71,7 +67,7 @@ i:hover {
 
 .topnav a {
     float: left;
-    color: #010101;
+    color: #0CD7F8;
     text-align: center;
     padding: 5px 16px;
     text-decoration: none;
@@ -81,22 +77,22 @@ i:hover {
 
 /* mouse hover over change color to dj theme*/
 
-.topnav a:hover {
-    background-color: #A10F4E;
-    color: #0CD7F8;
+.topnav .homenav:hover {
+    background-color: #D0D98F;
+    color: #010101;
     transition-duration: 0.55s;
 }
 
-section {
-    background-image: linear-gradient(#F2A03D, #D0D98F);
+.topnav .toasternav:hover {
+    background-color: #FFE600;
+    color: #010101;
+}
+
+.part1 {
+    background-image: linear-gradient(#A10F4E, #0CD7F8);
     padding: 10% 3% 10% 3%;
 }
 
-.introblurb {
-    font-size: 4vw;
-}
-
-.flipphoneandkeyboard img {
+section div img {
     width: 100%;
-    height: auto;
 }

@@ -1,20 +1,17 @@
 /* 
 Colours to use!
 
-yellow
-#FFE600
+white
+#F2F2F2
 
-Cyan
-#46D4F0
+orange
+#F2A03D
 
-Green
-#00A80B
+types of green
+#D0D98F
+#B2BF50
+#5F7336
 
-Orange 
-#EB6F00
-
-Dark Magenta
-#A32F61
 */
 
 
@@ -37,8 +34,8 @@ body {
 /*makes header flip apon hover, also makes the header look nicer, the color is the font color*/
 
 header {
-    color: #FFE600;
-    background-image: url("floor.jpg");
+    color: #F2A03D;
+    background-image: url("img/IMG_1166.JPG");
     filter: invert(10%);
     margin: 0%;
 }
@@ -65,7 +62,7 @@ i:hover {
 */
 
 .topnav {
-    background-color: #FFE600;
+    background-color: #D0D98F;
     overflow: hidden;
 }
 
@@ -84,29 +81,27 @@ i:hover {
 
 /* mouse hover over change color to dj theme*/
 
-.topnav a:hover {
+.topnav .djnav:hover {
     background-color: #A10F4E;
     color: #0CD7F8;
     transition-duration: 0.55s;
 }
 
-section p {
+.topnav .toasternav:hover {
     background-color: #FFE600;
-    padding: 5% 3% 5% 3%;
-    margin: 0% 0% 0% 0%;
+    color: #010101;
 }
 
-.whodoe {
-    font-size: 4vw;
+section {
+    background-image: linear-gradient(#F2A03D, #D0D98F);
+    padding: 10% 3% 10% 3%;
 }
 
 .introblurb {
-    font-size: 3em;
+    font-size: 4vw;
 }
 
-.widepic img {
+.flipphoneandkeyboard img {
     width: 100%;
     height: auto;
-    padding: 0px;
-    margin: 0px;
 }
