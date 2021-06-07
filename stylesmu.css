@@ -28,7 +28,7 @@ h1:hover {
 }
 
 .topnav {
-    background-color: #D0D98F;
+    background-color: #010101;
     overflow: hidden;
 }
 
@@ -37,7 +37,7 @@ h1:hover {
 
 .topnav a {
     float: left;
-    color: #010101;
+    color: #ffffff;
     text-align: center;
     padding: 5px 16px;
     text-decoration: none;
@@ -48,7 +48,8 @@ h1:hover {
 /*padding to the main stuff*/
 
 section {
-    background-image: linear-gradient(#D0D98F, #F2A03D);
+    background-color: #010101;
+    color: white;
     padding: 10% 3% 10% 3%;
 }
 
