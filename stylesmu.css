@@ -32,16 +32,32 @@ h1:hover {
     overflow: hidden;
 }
 
-
 /* make nav colored*/
 
 .topnav a {
     float: left;
-    color: #ffffff;
+    color: white;
     text-align: center;
     padding: 5px 16px;
     text-decoration: none;
     transition-duration: 0.55s;
+}
+
+/*nav hover settings*/
+
+.topnav .djnav:hover {
+    background-color: #A10F4E;
+    color: #0CD7F8;
+}
+
+.topnav .toasternav:hover {
+    background-color: #FFE600;
+    color: #010101;
+}
+
+.topnav .homenav:hover {
+    background-color: #D0D98F;
+    color: #010101;
 }
 
 
@@ -52,6 +68,12 @@ section {
     color: white;
     padding: 10% 3% 10% 3%;
 }
+
+
+
+/*
+***THEMES FOR EACH SONG***
+*/
 
 
 /*soulwax colors
