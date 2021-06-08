@@ -80,12 +80,16 @@ i:hover {
 .topnav .homenav:hover {
     background-color: #D0D98F;
     color: #010101;
-    transition-duration: 0.55s;
 }
 
 .topnav .toasternav:hover {
     background-color: #FFE600;
     color: #010101;
+}
+
+.topnav .musicnav:hover {
+    background-color: #010101;
+    color: white;
 }
 
 .part1 {

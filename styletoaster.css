@@ -94,6 +94,11 @@ i:hover {
     color: #F2A03D;
 }
 
+.topnav .musicnav:hover {
+    background-color: #010101;
+    color: white;
+}
+
 section p {
     background-color: #FFE600;
     padding: 5% 3% 5% 3%;
