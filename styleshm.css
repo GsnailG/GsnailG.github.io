@@ -50,13 +50,6 @@ h1:hover {
     transform: scaleX(-1);
 }
 
-
-/*
-i:hover {
-    transform: scaleX(-1);
-}
-*/
-
 .topnav {
     background-color: #D0D98F;
     overflow: hidden;
@@ -97,11 +90,15 @@ section {
     padding: 10% 3% 10% 3%;
 }
 
-.introblurb {
-    font-size: 4vw;
-}
-
-.flipphoneandkeyboard img {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    padding: 0%;
     width: 100%;
-    height: auto;
+    background-color: #F2A03D;
+    color: #D0D98F;
+    text-align: center;
+    font-size: 200%;
 }
