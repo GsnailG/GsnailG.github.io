@@ -33,7 +33,7 @@ body {
 
 header {
     color: #F2A03D;
-    background-image: url("img/IMG_1166.JPG");
+    background-image: url("img/tree.jpg");
     filter: invert(10%);
     margin: 0%;
 }
@@ -90,6 +90,37 @@ h1:hover {
 
 /*rest of website*/
 
+.main p {
+    text-align: center;
+}
+
+/*all things about the picture spinning*/
+
+.intro {
+    padding: 3em;
+}
+
+.shake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10em;
+}
+
+
+.main .shake {
+    animation: shake 3s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% {transform: rotate(-10deg);}
+    50% {transform: rotate(10deg);}
+    100% {transform: rotate(-10deg);}
+}
+
+
+/* footer */
 .footer {
     position: fixed;
     left: 0;
@@ -98,10 +129,16 @@ h1:hover {
     width: 100%;   
     padding-bottom: 1%;
     
-    background-image: url("img/IMG_1166.JPG");
+    background-image: url("img/tree.jpg");
     filter: invert(10%);
     
     text-align: center;
     font-size: 200%;
     color: #F2A03D;
 }
+
+
+
+
+
+
