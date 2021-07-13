@@ -1,20 +1,13 @@
 /* 
 Colours to use!
-
-yellow
-#FFE600
-
-Cyan
-#46D4F0
-
-Green
-#00A80B
-
-Orange 
-#EB6F00
-
-Dark Magenta
-#A32F61
+white
+#F2F2F2
+orange
+#F2A03D
+types of green
+#D0D98F
+#B2BF50
+#5F7336
 */
 
 
@@ -31,14 +24,16 @@ html {
 body {
     margin: 0%;
     padding: 0%;
+    height: 100%;
+    background-color:#F2A03D;
 }
 
 
 /*makes header flip apon hover, also makes the header look nicer, the color is the font color*/
 
 header {
-    color: #FFE600;
-    background-image: url("img/floor.jpg");
+    color: #F2A03D;
+    background-image: url("img/IMG_1166.JPG");
     filter: invert(10%);
     margin: 0%;
 }
@@ -48,8 +43,13 @@ header {
 
 header h1 {
     margin-top: 0;
+    padding-left: 1%;
 }
 
+header i {
+    margin-top: 0;
+    padding-left: 1%;
+}
 
 /*makes it so when hovered over, it flips*/
 
@@ -57,21 +57,13 @@ h1:hover {
     transform: scaleX(-1);
 }
 
-
-/*
-i:hover {
-    transform: scaleX(-1);
-}
-*/
-
 .topnav {
-    background-color: #FFE600;
+    background-color: #D0D98F;
     overflow: hidden;
 }
 
 
 /* make nav colored*/
-
 .topnav a {
     float: left;
     color: #010101;
@@ -82,16 +74,13 @@ i:hover {
 }
 
 
-/* mouse hover over change color to theme of other website*/
+/* mouse hover over change color to other website's themes*/
+/*rav*/
 
-.topnav .djnav:hover {
-    background-color: #A10F4E;
-    color: #0CD7F8;
-}
-
-.topnav .homenav:hover {
-    background-color: #D0D98F;
-    color: #F2A03D;
+.topnav .toasternav:hover {
+    background-image: linear-gradient(90deg,#29FFC8,#FFE600);
+    color: #010101;
+    transition: 5s linear;
 }
 
 .topnav .musicnav:hover {
@@ -99,23 +88,20 @@ i:hover {
     color: white;
 }
 
-section p {
-    background-color: #FFE600;
-    padding: 5% 3% 5% 3%;
-    margin: 0% 0% 0% 0%;
-}
+/*rest of website*/
 
-.whodoe {
-    font-size: 4vw;
-}
-
-.introblurb {
-    font-size: 3em;
-}
-
-.widepic img {
-    width: 100%;
-    height: auto;
-    padding: 0px;
-    margin: 0px;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0%;
+    width: 100%;   
+    padding-bottom: 1%;
+    
+    background-image: url("img/IMG_1166.JPG");
+    filter: invert(10%);
+    
+    text-align: center;
+    font-size: 200%;
+    color: #F2A03D;
 }

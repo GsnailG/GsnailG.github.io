@@ -1,13 +1,23 @@
 /* 
 Colours to use!
-white
-#F2F2F2
-orange
-#F2A03D
-types of green
-#D0D98F
-#B2BF50
-#5F7336
+
+yellow
+#FFE600
+
+cyan(use with yellow)
+#29FFC8
+
+Cyan
+#46D4F0
+
+Green
+#00A80B
+
+Orange 
+#EB6F00
+
+Dark Magenta
+#A32F61
 */
 
 
@@ -25,15 +35,15 @@ body {
     margin: 0%;
     padding: 0%;
     height: 100%;
-    background-color:#F2A03D;
+    background-color:#FFE600;
 }
 
 
 /*makes header flip apon hover, also makes the header look nicer, the color is the font color*/
 
 header {
-    color: #F2A03D;
-    background-image: url("img/IMG_1166.JPG");
+    color: #29FFC8;
+    background-image: url("img/floor.jpg");
     filter: invert(10%);
     margin: 0%;
 }
@@ -51,14 +61,22 @@ header i {
     padding-left: 1%;
 }
 
+
 /*makes it so when hovered over, it flips*/
 
 h1:hover {
     transform: scaleX(-1);
 }
 
+
+/*
+i:hover {
+    transform: scaleX(-1);
+}
+*/
+
 .topnav {
-    background-color: #D0D98F;
+    background-color: #FFE600;
     overflow: hidden;
 }
 
@@ -75,16 +93,16 @@ h1:hover {
 }
 
 
-/* mouse hover over change color to other website's themes*/
+/* mouse hover over change color to theme of other website*/
 
 .topnav .djnav:hover {
     background-color: #A10F4E;
     color: #0CD7F8;
 }
 
-.topnav .toasternav:hover {
-    background-color: #FFE600;
-    color: #010101;
+.topnav .homenav:hover {
+    background-color: #D0D98F;
+    color: #F2A03D;
 }
 
 .topnav .musicnav:hover {
@@ -92,10 +110,7 @@ h1:hover {
     color: white;
 }
 
-section {
-    background-image: linear-gradient(#F2A03D, #D0D98F);
-    padding: 10% 3% 10% 3%;
-}
+
 
 .footer {
     position: fixed;
@@ -105,10 +120,10 @@ section {
     width: 100%;   
     padding-bottom: 1%;
     
-    background-image: url("img/IMG_1166.JPG");
+    background-image: url("img/floor.jpg");
     filter: invert(10%);
     
     text-align: center;
     font-size: 200%;
-    color: #F2A03D;
+    color: #29FFC8;
 }
