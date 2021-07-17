@@ -35,7 +35,7 @@ body {
     margin: 0%;
     padding: 0%;
     height: 100%;
-    background-color:#FFE600;
+    background-color: #FFE600;
 }
 
 
@@ -101,14 +101,12 @@ i:hover {
 }
 
 .topnav .homenav {
-    background-color:#29FFC8;
-    color:#010101;
-    
+    background-color: #29FFC8;
+    color: #010101;
 }
 
 .topnav .whenuanav {
-    background-image: linear-gradient(90deg,#29FFC8,#FFE600);
-
+    background-image: linear-gradient(90deg, #29FFC8, #FFE600);
 }
 
 .topnav .homenav:hover {
@@ -122,18 +120,23 @@ i:hover {
 }
 
 
+/* footer */
+
+
+/* DEAR GARETH, please never put "fixed" or "absoulute" in your footers.*/
+
+
+/*DEAR GARETH, there is not enough content for the footer to be at the bottom of the page like this, ima use fixed*/
 
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     padding: 0%;
-    width: 100%;   
+    width: 100%;
     padding-bottom: 1%;
-    
     background-image: url("img/floor.jpg");
     filter: invert(10%);
-    
     text-align: center;
     font-size: 200%;
     color: #29FFC8;

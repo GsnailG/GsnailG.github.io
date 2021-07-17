@@ -23,7 +23,7 @@ body {
     margin: 0%;
     padding: 0%;
     height: 100%;
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
 }
 
 
@@ -49,6 +49,7 @@ header i {
     padding-left: 1%;
 }
 
+
 /*makes it so when hovered over, it flips*/
 
 h1:hover {
@@ -62,6 +63,7 @@ h1:hover {
 
 
 /* make nav colored*/
+
 .topnav a {
     float: left;
     color: #010101;
@@ -73,10 +75,12 @@ h1:hover {
 
 
 /* mouse hover over change color to other website's themes*/
+
+
 /*rav*/
 
 .topnav .toasternav:hover {
-    background-image: linear-gradient(90deg,#29FFC8,#FFE600);
+    background-image: linear-gradient(90deg, #29FFC8, #FFE600);
     color: #010101;
 }
 
@@ -90,57 +94,39 @@ h1:hover {
     color: #010101;
 }
 
+
 /*rest of website*/
 
 .main p {
     text-align: center;
 }
 
-/*all things about the picture spinning*/
 
-.intro {
-    padding: 3em;
-}
+/*all things about goose pictures*/
 
-.shake {
-    display: block;
+.pictures img {
+    width: 350px;
+    padding: 3vh;
     margin-left: auto;
     margin-right: auto;
-    max-width: 10em;
-}
-
-
-.main .shake {
-    animation: shake 3s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake {
-    0% {transform: rotate(-10deg);}
-    50% {transform: rotate(10deg);}
-    100% {transform: rotate(-10deg);}
+    display: block;
 }
 
 
 /* footer */
+
+
+/* DEAR GARETH, please never put "fixed" or "absoulute" in your footers.*/
+
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     padding: 0%;
-    width: 100%;   
+    width: 100%;
     padding-bottom: 1%;
-    
     background-image: url("img/tree.jpg");
     filter: invert(10%);
-    
     text-align: center;
     font-size: 200%;
     color: #F2A03D;
 }
-
-
-
-
-
-
