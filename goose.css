@@ -104,12 +104,19 @@ h1:hover {
 
 /*all things about goose pictures*/
 
+.pictures {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .pictures img {
-    width: 350px;
-    padding: 3vh;
+    width: 34%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
     margin-left: auto;
     margin-right: auto;
-    display: block;
 }
 
 
