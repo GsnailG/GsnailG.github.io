@@ -95,14 +95,9 @@ i:hover {
 
 /* mouse hover over change color to theme of other website*/
 
-.topnav .djnav:hover {
-    background-color: #A10F4E;
-    color: #0CD7F8;
-}
-
-.topnav .homenav {
-    background-color: #29FFC8;
-    color: #010101;
+.topnav .goosenav:hover {
+    background-color: #FFAB51;
+    color: #F2F2F2;
 }
 
 .topnav .whenuanav {

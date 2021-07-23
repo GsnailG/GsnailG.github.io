@@ -92,6 +92,11 @@ h1:hover {
     color: white;
 }
 
+.topnav .goosenav:hover {
+    background-color: #FFAB51;
+    color: #F2F2F2;
+}
+
 
 /*rest of website*/
 

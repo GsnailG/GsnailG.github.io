@@ -79,6 +79,11 @@ h1:hover {
 
 /*rav*/
 
+.topnav .goosenav:hover {
+    background-color: #FFAB51;
+    color: #F2F2F2;
+}
+
 .topnav .toasternav:hover {
     background-image: linear-gradient(90deg, #29FFC8, #FFE600);
     color: #010101;
@@ -104,19 +109,15 @@ h1:hover {
 
 /*all things about goose pictures*/
 
-.pictures {  
-    display: flex;
-    flex-wrap: wrap;
-}
-
+.pictures {}
 
 .pictures img {
-    width: 34%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
