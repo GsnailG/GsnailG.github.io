@@ -109,11 +109,15 @@ h1:hover {
 
 /*all things about goose pictures*/
 
+.gosegose {
+    max-width: 300px;
+}
+
 .pictures img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    max-height: 400px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
