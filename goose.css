@@ -30,9 +30,8 @@ body {
 /*makes header flip apon hover, also makes the header look nicer, the color is the font color*/
 
 header {
-    color: #FFAB51;
+    color: #F2F2F2;
     background-image: url("img/qualitygeese/other/geesecompressed.jpg");
-    filter: invert(10%);
     margin: 0%;
 }
 
@@ -89,26 +88,13 @@ h1:hover {
     color: #010101;
 }
 
-.topnav .musicnav:hover {
-    background-color: #010101;
-    color: white;
-}
-
-.topnav .homenav:hover {
-    background-color: #D0D98F;
-    color: #010101;
-}
-
 
 /*rest of website*/
-
-.main p {
-    text-align: center;
-}
 
 
 /*all things about goose pictures*/
 
+<<<<<<< Updated upstream
 .gosegose {
     max-width: 300px;
 }
@@ -120,6 +106,24 @@ h1:hover {
     max-height: 400px;
     padding-top: 10px;
     padding-bottom: 10px;
+=======
+.photos {
+    padding: 0px 15% 25px 15%;
+    /* prevent vertical gaps */
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+.photos img {
+    /* just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+>>>>>>> Stashed changes
 }
 
 
@@ -129,14 +133,15 @@ h1:hover {
 /* DEAR GARETH, please never put "fixed" or "absoulute" in your footers.*/
 
 .footer {
+    position: fixed;
     left: 0;
     bottom: 0;
     padding: 0%;
     width: 100%;
-    padding-bottom: 1%;
+    padding-bottom: 10px;
     background-image: url("img/qualitygeese/other/geesecompressed.jpg");
     filter: invert(10%);
     text-align: center;
     font-size: 200%;
-    color: #F2A03D;
+    color: #F2F2F2;
 }

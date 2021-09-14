@@ -23,7 +23,6 @@ html {
 
 body {
     margin: 0%;
-    padding: 0%;
     height: 100%;
     background-color: #F2A03D;
 }
@@ -76,10 +75,10 @@ h1:hover {
 }
 
 
+/*nav*/
+
+
 /* mouse hover over change color to other website's themes*/
-
-
-/*rav*/
 
 .topnav .toasternav:hover {
     background-image: linear-gradient(90deg, #29FFC8, #FFE600);
@@ -97,6 +96,7 @@ h1:hover {
 }
 
 
+<<<<<<< Updated upstream
 /*rest of website*/
 
 .main p {
@@ -135,10 +135,15 @@ h1:hover {
 }
 
 
+=======
+>>>>>>> Stashed changes
 /* footer */
 
 
 /* DEAR GARETH, please never put "fixed" or "absoulute" in your footers.*/
+
+
+/*ignore above, absolute makes the footer stay visable no matter what so that is fine*/
 
 
 /*DEAR GARETH, there is not enough content for the footer to be at the bottom of the page like this, ima use fixed*/

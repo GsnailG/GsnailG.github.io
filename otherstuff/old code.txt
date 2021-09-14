@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <link rel="stylesheet" href="goose.css">
-    <title>big man geese</title>
-</head>
-
-<body>
-
-    <header>
-        <!--The title tag makes it so when the mouse hovers over for extended amount of time, it makes a message appear-->
-        <h1 title="big man gareth">gareth,</h1>
-        <i title="thats me">kearins</i>
-
-    </header>
-
-
-    <div class="topnav">
-        <a class="homenav" href="index.html">home</a>
-        <a class="toasternav" href="whenuatoaster.html">whenua-toaster</a>
-        <a class="goosenav" href="goose.html">geese-drawings</a>
-        <a class="musicnav" href="music.html">songs-i-think-of-sometimes</a>
-    </div>
-
-    <div class="main">
-        <!-- this has all the pictures -->
-        <div class="photos">
             <img src="img/qualitygeese/abgoose.jpg" alt="goose with mad abs">
             <img src="img/qualitygeese/amonggoose.JPG" alt="a goose that looks like among us">
             <img src="img/qualitygeese/aliengoose.gif" alt="goose that looks like an alien">
@@ -41,7 +11,7 @@
             <img src="img/qualitygeese/emogoose.JPG" alt="emo goose">
             <img src="img/qualitygeese/gooseface.jpg" alt="goose with human face features">
             <img src="img/qualitygeese/happygoose.JPG" alt="goose that is really happy and almost a gifrafe">
-            <img src="img/qualitygeese/gosegosoe.JPG" alt="gosegosoe" class="gosegose">
+            <img src="img/qualitygeese/gosegosoe.JPG" alt="gosegosoe">
             <img src="img/qualitygeese/hookgoose.jpg" alt="honk?">
             <img src="img/qualitygeese/hunchgoose.JPG" alt="goose with back problems">
             <img src="img/qualitygeese/leggoose.jpg" alt="goose with legs, but big">
@@ -52,17 +22,5 @@
             <img src="img/qualitygeese/snowgoose.jpg" alt="goose like snowman">
             <img src="img/qualitygeese/tophat goose.JPG" alt="goose with top hat">
             <img src="img/qualitygeese/toungegoose.jpg" alt="goose with tounge">
-            <img src="img/qualitygeese/uncelgoose.jpg" alt="picture your uncle but a goose">
+            <img src="img/qualitygeese/uncelgoose.PNG" alt="picture your uncle but a goose">
             <img src="img/qualitygeese/upsidedowngoose.jpg" alt="the goose is upside down">
-        </div>
-
-
-
-        <footer class="footer">
-            <small>&copy; big_man_gareth</small>
-        </footer>
-
-</body>
-
-
-</html>
