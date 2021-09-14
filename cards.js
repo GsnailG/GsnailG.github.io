@@ -4,7 +4,7 @@ var prompts = [
     "Gareth really likes ________.",
     "Aleisha really likes _____________.",
     "Chloe really likes _____________.",
-    "Mountainview Highschool has now officaly banned _________.",
+    "Mountainview Highschool has now officially banned _________.",
     "A brand new “position”, the _____________.",
     "Introducing the Mountainview Highschool ______________ club.",
     "The real reason why Mr Gibbs left",
@@ -16,7 +16,9 @@ var prompts = [
     "I never leave the house without ______.",
     "In order to be hip with the kids, (card reader) is actively engaged in ________.",
     "Life would be better without ______.",
-    "Im not like other girls, I'm __________."
+    "Im not like other girls, I'm __________.",
+    "What is in (card reader's) wardrobe?",
+    "When Whenua Commons got upgraded, what it really needed was ______."
 ]
 
 function newPrompt() {
