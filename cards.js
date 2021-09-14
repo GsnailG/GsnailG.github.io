@@ -17,9 +17,12 @@ var prompts = [
     "In order to be hip with the kids, (card reader) is actively engaged in ________.",
     "Life would be better without ______.",
     "Im not like other girls, I'm __________."
+
 ]
 
 function newPrompt() {
     var randomNumber = Math.floor(Math.random() * (prompts.length));
     document.getElementById('cardDisplay').innerHTML = prompts[randomNumber];
 }
+
+newPrompt();
