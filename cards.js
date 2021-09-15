@@ -25,3 +25,5 @@ function newPrompt() {
     var randomNumber = Math.floor(Math.random() * (prompts.length));
     document.getElementById('cardDisplay').innerHTML = prompts[randomNumber];
 }
+
+newPrompt()
