@@ -18,7 +18,9 @@ var prompts = [
     "Life would be better without ______.",
     "Im not like other girls, I'm __________.",
     "What is in (card reader's) wardrobe?",
-    "When Whenua Commons got upgraded, what it really needed was ______."
+    "When Whenua Commons got upgraded, what it really needed was ______.",
+    "1,2,3,4, whats behind that bloody door?",
+    "New from Hot Wheels, the _____-mobile"
 ]
 
 function newPrompt() {
