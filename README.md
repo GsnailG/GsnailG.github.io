@@ -1,3 +1,3 @@
 # GsnailG.github.io
-my website
-broken af
+This a website of my projects that I will maybe do one day
+
