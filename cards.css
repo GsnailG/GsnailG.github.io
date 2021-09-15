@@ -30,10 +30,9 @@ header h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
-    
+    font-family: Helvetica;
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38); /*i stole this code! https://www.joshwcomeau.com/css/designing-shadows/*/
 
-    font-family: Helvetica;
 
     border: 1px;
     border-radius: 10px;
@@ -41,6 +40,7 @@ header h1 {
     width: 63mm;
     min-height: 88mm;
     
+
     font-size: 200%;
     background-color: #010101;
     color:#F2F2F2;
@@ -73,9 +73,13 @@ button {
     background-color: #F2F2F2;
     color: #010101;
     bottom: 0;
+    
     padding: 0%;
     width: 100%;
     padding-bottom: 1px;
+    
     text-align: center;
     font-size: 200%;
+
+    font-family: Helvetica;
 }
