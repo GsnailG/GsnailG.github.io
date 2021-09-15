@@ -21,6 +21,7 @@ body {
 header h1 {
     text-align: center;
     color: #010101;
+    font-family: Helvetica;
 }
 
 
@@ -30,7 +31,6 @@ header h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
-    font-family: Helvetica;
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38); /*i stole this code! https://www.joshwcomeau.com/css/designing-shadows/*/
 
 
@@ -40,7 +40,7 @@ header h1 {
     width: 63mm;
     min-height: 88mm;
     
-
+    font-family: Helvetica;
     font-size: 200%;
     background-color: #010101;
     color:#F2F2F2;
