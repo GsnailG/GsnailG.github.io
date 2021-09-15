@@ -9,12 +9,16 @@ black ##010101
 html {
     margin: 0%;
     padding: 0%;
+    height: 100%;
 }
 /* this is to make the website go all the way to the edges of the website*/
 body {
     margin: 0%;
     height: 100%;
     background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -29,7 +33,7 @@ header h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     font-family: Helvetica;
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38); /*i stole this code! https://www.joshwcomeau.com/css/designing-shadows/*/
 
@@ -58,9 +62,11 @@ button {
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38); /*i stole this code! https://www.joshwcomeau.com/css/designing-shadows/*/
 
     margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -90%);
+    /* position: absolute; */
+    /* left: 50%; */
+    width: 158px;
+    margin-bottom: 20px;
+    /* transform: translate(-50%, -90%); */
 
 }
 
@@ -68,11 +74,12 @@ button {
 
 /*footer*/
 .footer {
-    position: fixed;
-    left: 0;
+    /* position: fixed; */
+    /* left: 0; */
     background-color: #F2F2F2;
     color: #010101;
-    bottom: 0;
+    /* bottom: 0; */
+    margin-top: auto;
     
     padding: 0%;
     width: 100%;
