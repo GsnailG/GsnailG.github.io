@@ -1,0 +1,77 @@
+/* 
+cards colours
+white #F2F2F2
+black ##010101
+*/
+
+
+/* this is to make the website go all the way to the edges of the website*/
+html {
+    margin: 0%;
+    padding: 0%;
+}
+/* this is to make the website go all the way to the edges of the website*/
+body {
+    margin: 0%;
+    height: 100%;
+    background-color: #010101;
+}
+
+
+header h1 {
+    text-align: center;
+    color: #F2F2F2;
+}
+
+
+.promptdisplay {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    
+    border: 1px;
+    border-radius: 10px;
+    /*dimesions of a real card */
+    width: 63mm;
+    min-height: 88mm;
+    
+    font-size: 200%;
+    background-color: #F2F2F2;
+}
+
+
+button {
+    background-color: #F2F2F2;
+    color: #010101;
+    padding: 15px 32px;
+    margin: 0px 0px 0px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover{
+    transition-duration: 500ms;
+    background-color: aqua;
+}
+
+
+/*footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    background-color: #F2F2F2;
+    color: #010101;
+    bottom: 0;
+    padding: 0%;
+    width: 100%;
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: 200%;
+}
