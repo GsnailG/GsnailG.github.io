@@ -23,9 +23,14 @@ var prompts = [
     "Define: Bruh Moment.",
     "Kamar has just been updated, you can how add ________.",
     "If MVHS had a Room 69, it would have ________ and _________."
+    "1,2,3,4, whats behind that bloody door?",
+    "New from Hot Wheels, the _____-mobile"
+
 ]
 
 function newPrompt() {
     var randomNumber = Math.floor(Math.random() * (prompts.length));
     document.getElementById('cardDisplay').innerHTML = prompts[randomNumber];
 }
+
+newPrompt()
