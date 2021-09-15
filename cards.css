@@ -14,13 +14,13 @@ html {
 body {
     margin: 0%;
     height: 100%;
-    background-color: #010101;
+    background-color: #F2F2F2;
 }
 
 
 header h1 {
     text-align: center;
-    color: #F2F2F2;
+    color: #010101;
 }
 
 
@@ -38,28 +38,26 @@ header h1 {
     min-height: 88mm;
     
     font-size: 200%;
-    background-color: #F2F2F2;
+    background-color: #010101;
+    color:#F2F2F2;
 }
 
 
 button {
-    background-color: #F2F2F2;
-    color: #010101;
+    background-color: #010101;
+    color: #F2F2F2;
     padding: 15px 32px;
-    margin: 0px 0px 0px 100px;
     text-align: center;
-    text-decoration: none;
     font-size: 16px;
+
+
     margin: 0;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -90%);
+
 }
 
-button:hover{
-    transition-duration: 500ms;
-    background-color: aqua;
-}
 
 
 /*footer*/
