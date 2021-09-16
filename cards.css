@@ -34,12 +34,8 @@ header h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-    margin-bottom: 70px;
-=======
     margin-bottom: 20px;
     font-family: Helvetica;
->>>>>>> 2263f7a928894b459e927b25917e0fb370c1d01e
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38); /*i stole this code! https://www.joshwcomeau.com/css/designing-shadows/*/
 
 
