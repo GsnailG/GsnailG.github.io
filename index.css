@@ -74,90 +74,26 @@ h1:hover {
     transition-duration: 0.55s;
 }
 
-
-/*nav*/
-
-
-/* mouse hover over change color to other website's themes*/
-
-.topnav .toasternav:hover {
-    background-image: linear-gradient(90deg, #29FFC8, #FFE600);
-    color: #010101;
-}
-
-.topnav .musicnav:hover {
-    background-color: #010101;
-    color: white;
-}
-
-.topnav .goosenav:hover {
-    background-color: #FFAB51;
-    color: #F2F2F2;
-}
-
-
-<<<<<<< Updated upstream
-/*rest of website*/
-
-.main p {
+.intro {
+    font-size: 100%;
     text-align: center;
 }
 
 
-/*all things about the picture spinning*/
 
-.intro {
-    padding: 3em;
-}
-
-.shake {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 10em;
-}
-
-.main .shake {
-    animation: shake 3s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-    0% {
-        transform: rotate(-10deg);
-    }
-    50% {
-        transform: rotate(10deg);
-    }
-    100% {
-        transform: rotate(-10deg);
-    }
-}
-
-
-=======
->>>>>>> Stashed changes
-/* footer */
-
-
-/* DEAR GARETH, please never put "fixed" or "absoulute" in your footers.*/
-
-
-/*ignore above, absolute makes the footer stay visable no matter what so that is fine*/
-
-
-/*DEAR GARETH, there is not enough content for the footer to be at the bottom of the page like this, ima use fixed*/
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin-top: auto;
+    
     padding: 0%;
     width: 100%;
-    padding-bottom: 1%;
-    background-image: url("img/tree.jpg");
-    filter: invert(10%);
+    padding-bottom: 1px;
+    
     text-align: center;
     font-size: 200%;
+
+    font-family:'Times New Roman', Times, serif;
+    background-image: url("img/tree.jpg");
+
     color: #F2A03D;
 }
