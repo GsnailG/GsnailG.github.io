@@ -7,7 +7,7 @@ var prompts = [
     "Schools all around the country have now banned _______.",
     "A brand new “position”, the ____________.",
     "Introducing the Highschool ________ club.",
-    "The real reason why the subsitute teacher left.",
+    "The real reason why the substitute teacher left.",
     "Nine out of Ten students agreed that there needs to be more _________ in the learning environment.",
     "What left this stain on my couch?",
     "Money can't buy me love, but it can buy me _________.",
@@ -57,7 +57,8 @@ var prompts = [
     "Home is where _ is.",
     "Oh shit! I just got _.",
     "The bathroom was out of toilet paper, so I used _ on my ass instead.",
-    "____ is where my life started going wrong."
+    "____ is where my life started going wrong.",
+    "<a href='https://ngtgyu.hdert.com/'>This leads to</a> _______."
 
 ]
 
