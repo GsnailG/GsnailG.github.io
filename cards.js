@@ -1,3 +1,4 @@
+// _______ 7 underscores per line
 var prompts = [ 
     "You dip your chips in sauce? I dip mine in _______.",
     "Frazer really likes _______.",
@@ -20,7 +21,7 @@ var prompts = [
     "When my kitchen gets upgraded, what it really needs is _______.",
     "Define: Bruh Moment.",
     "1,2,3,4, what's behind that bloody door?",
-    "New from Hot Wheels, _______-mobile",
+    "New from Hot Wheels, the _______-mobile",
     "When I saw your mum, it reminded me of _______.",
     "I have varied tastes, I really enjoy eating _______.",
     "What is the green emergency exit man running from",
@@ -49,15 +50,16 @@ var prompts = [
     "I want _______ on my desk by 5, or you're fired!",
     "I couldn't find _______, so I had to use _______ instead.",
     "16 people. 39 days of _______. One Survivor.",
-    "All classes today are cancelled due to ___.",
+    "All classes today are cancelled due to _______.",
     "If you like _______, you'll love _______.",
-    "But muuuum! I don't want ___ for dinner again!",
+    "But muuuum! I don't want _______ for dinner again!",
     "FOR SALE: _______. Only used once.",
     "Good news is, I'm _______. Bad news is, I'm _______.",
     "Home is where _______ is.",
     "Oh shit! I just got _______.",
     "The bathroom was out of toilet paper, so I used _______ on my ass instead.",
     "_______ is where my life started going wrong."
+
 
 ]
 
