@@ -1,5 +1,5 @@
 // _______ 7 underscores per line
-var prompts = [
+var prompts = [ 
     "You dip your chips in sauce? I dip mine in _______.",
     "Frazer really likes _______.",
     "Gareth really likes _______.",
@@ -58,8 +58,8 @@ var prompts = [
     "Home is where _______ is.",
     "Oh shit! I just got _______.",
     "The bathroom was out of toilet paper, so I used _______ on my ass instead.",
-    "_______ is where my life started going wrong.",
-    "<a href='https://ngtgyu.hdert.com/'>This is</a> (card reader's) favorite website _______."
+    "_______ is where my life started going wrong."
+
 
 ]
 
