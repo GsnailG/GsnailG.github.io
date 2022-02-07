@@ -1,4 +1,5 @@
 :root {
+  --black: #000000;
   --cyan: #46D4F0;
   --orange: #EB6F00;
   --yellow: #FFE600;
@@ -18,66 +19,70 @@ body {
   margin: 0px;
 }
 
+
+
 /* nav */
 
+
+/* positioning rules */
 .nav {
-
-  background-color: var(--orange);
-
-  /* shrinks and sets nav in middle of screen */
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-
-  /* sets navs height */ 
-  height: 4em;
-
-  /* sets divs inside nav to be like big boxes? */
   display: grid;
-
- }
-
-
-/* set said big boxes to
-stay on one row and not
-to stack ontop of each other */
-
-.navp1 {
-
-  /* vertically centers text relative to the 4 em -text height*/
-  padding-top: 1.5em;
-
-  grid-column: 1;
-  grid-row: 1;
-
-  margin-left: auto;
-  margin-right: auto;
-
+  width: 300px;
+  height: 50px;
 }
 
-.logo {
-  grid-column: 2;
-  grid-row: 1;
-
-  margin-left: auto;
+/* 
+chuck things
+that need to be 
+centered in here
+*/
+.nav , .logo, .navp2 { 
+  margin-left: auto;  
   margin-right: auto;
 }
 
-.navp2 {
+.navp1 , .logo , .navp2 {
+  grid-row: 1; /* keep all aligned */
+}
 
-  /* vertically centers text relative to the 4 em -text height*/
-  padding-top: 1.5em;
+.navp1 , .navp2 {
+  text-align: center;
+}
 
-  grid-column: 3;
-  grid-row: 1;
-
-  margin-left: auto;
+.logo img { /* applys only to the image */
+  width: 6.4em;
+  margin-left: auto;  
   margin-right: auto;
 }
 
+/* athestics */
+
+.nav {
+  background-color: var(--orange);
+  border-radius:  0px 0px 20px 20px;
+  font-family: "Atkinson Hyperlegible";
+}
+
+.navp1 a { /* applys to text */
+  text-decoration: none; /* no underline */
+  font-size: 30px;
+  color: inherit;
+}
+
+.navp2 button {
+  font-size: 30px;
+  padding: 0;
+  cursor: pointer;
+  border: inherit;
+  outline: inherit;
+  background: none;
+  color: inherit;
+    
+}
 
 
-.nav img { /* applys only to the image */
-  height: 7em
+.menu_items {
+  display: none;
+  position: absolute;
 }
 
