@@ -63,21 +63,30 @@ centered in here
   font-family: "Atkinson Hyperlegible";
 }
 
-.navp1 a { /* applys to text */
-  text-decoration: none; /* no underline */
-  font-size: 30px;
-  color: inherit;
-}
-
-.navp2 button {
-  font-size: 30px;
+.navp1 form button { /* applys to text */
   padding: 0;
   cursor: pointer;
   border: inherit;
   outline: inherit;
   background: none;
-  color: inherit;
-    
+
+  margin: 0px 0px 0px 10px; /* 10px idk what it does */
+
+  font-size: 30px;
+  color: var(--white);
+}
+
+.navp2 button {
+  padding: 0;
+  cursor: pointer;
+  border: inherit;
+  outline: inherit;
+  background: none;
+
+  margin: 0px 10px 0px 0px; /* 10px idk what it does */
+
+  font-size: 30px;
+  color: var(--white);
 }
 
 
