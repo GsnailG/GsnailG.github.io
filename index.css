@@ -18,7 +18,9 @@ font-family: "Heebo", sans-serif;
 
 /*  reset all css margins ect*/
 html {
+  width: 100vw;
   margin:0px;
+  overflow: none;
   font-family: "Heebo", sans-serif;
  }
 
@@ -28,17 +30,34 @@ body {
 }
 
 
+
+
+
 /*
 █▄█ ██▀ ▄▀▄ █▀▄ ██▀ █▀▄ 
 █ █ █▄▄ █▀█ █▄▀ █▄▄ █▀▄ 
 */
 
 header {
-  display: grid;
+  animation: bgmovement 30s infinite linear;
+  display: grid; /*https://stackoverflow.com/questions/21087518/animate-css-background-position-with-smooth-results-sub-pixel-animation http://jsfiddle.net/5pVr4/4/ */
+  background-position: center;
+}
+
+@keyframes bgmovement {
+
+  0%{
+    background-position: left;
+  }
+  
+  100%{
+    background-position: right;
+  }
 
 }
 
 header h1 {
+  background-color: var(--white);
   width: fit-content;
   display: flex;
   align-self: center;
@@ -63,6 +82,10 @@ header h1 {
   margin-right: auto;
 }
 
+nav {
+  text-align: center;
+}
+
 
 .main {
   margin-left: auto;
@@ -71,13 +94,6 @@ header h1 {
   width: 70vw;
 
 }
-
-@media screen and (max-width: 600px){
-  iframe {
-    height: 80px;
-  }
-}
-
 
 .footer {
   text-align: center;
