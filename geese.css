@@ -1,0 +1,90 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --orange: #ff5100;
+    --yellow: #fefc00;
+    --lime: #09ff00;
+    --cyan: #00ffd5;
+  }
+  
+  /*
+  WATCHDOGS GARETH LOADING SCREEN PLEASE AND THANKYOU 
+  as in the video game with the hexagons and shit
+  
+  font-family: "Heebo", sans-serif;
+  
+  */
+  
+  
+  /*  reset all css margins ect*/
+  html {
+    width: 100vw;
+    margin:0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Heebo", sans-serif;
+   }
+  
+  body {
+    width: 100vw;
+    margin: 0px;
+  }
+  
+  
+  
+  
+  
+  /*
+  █▄█ ██▀ ▄▀▄ █▀▄ ██▀ █▀▄ 
+  █ █ █▄▄ █▀█ █▄▀ █▄▄ █▀▄ 
+  */
+  
+  header {
+    animation: bgmovement 20s infinite linear;
+    display: grid; /*https://stackoverflow.com/questions/21087518/animate-css-background-position-with-smooth-results-sub-pixel-animation http://jsfiddle.net/5pVr4/4/ */
+    background-position: center;
+  }
+  
+  
+  header h1 {
+    background-color: var(--white);
+    width: fit-content;
+    display: flex;
+    align-self: center;
+  
+    grid-column: 2;
+    grid-row: 1;
+  
+    font-weight: 200;
+  }
+  
+  .logo {
+    margin-left: auto;
+    width: 100px;
+    z-index: 1;
+  }
+  
+  .logo img{
+    grid-row: 1;
+    grid-column: 1;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 70vw;
+  
+  }
+  
+  .footer {
+    text-align: center;
+  }
