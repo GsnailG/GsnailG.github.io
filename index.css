@@ -20,7 +20,8 @@ font-family: "Heebo", sans-serif;
 html {
   width: 100vw;
   margin:0px;
-  overflow: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
   font-family: "Heebo", sans-serif;
  }
 
@@ -39,21 +40,8 @@ body {
 */
 
 header {
-  animation: bgmovement 30s infinite linear;
   display: grid; /*https://stackoverflow.com/questions/21087518/animate-css-background-position-with-smooth-results-sub-pixel-animation http://jsfiddle.net/5pVr4/4/ */
   background-position: center;
-}
-
-@keyframes bgmovement {
-
-  0%{
-    background-position: left;
-  }
-  
-  100%{
-    background-position: right;
-  }
-
 }
 
 header h1 {
