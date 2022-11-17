@@ -11,11 +11,28 @@
 WATCHDOGS GARETH LOADING SCREEN PLEASE AND THANKYOU 
 as in the video game with the hexagons and shit
 
+ima try -L0g_
+
 font-family: "Heebo", sans-serif;
 
 */
+.loader1 {
+  animation-name: loader1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+}
 
+@keyframes loader1 {
 
+}
+
+@keyframes content {
+  
+}
 /*  reset all css margins ect*/
 html {
   width: 100vw;
@@ -30,7 +47,10 @@ body {
   margin: 0px;
 }
 
-
+.content {
+  display: none;
+  animation-name: content;
+}
 
 
 
