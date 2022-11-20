@@ -4,7 +4,7 @@
   --orange: #ff5100;
   --yellow: #fefc00;
   --lime: #09ff00;
-  --cyan: #00ffd5;
+  --cyan: hsl(170, 100%, 50%);
 }
 
 /*
@@ -13,6 +13,8 @@ as in the video game with the hexagons and shit
 
 ima try -L0g_
 
+maybe later -L0g_
+
 font-family: "Heebo", sans-serif;
 
 */
@@ -20,14 +22,14 @@ font-family: "Heebo", sans-serif;
   animation-name: loader1;
   position: absolute;
   animation-duration: 2s;
-  left: 50%;
-  top: 50%;
+  font-size: xx-large;
   z-index: 1;
-  width: 120px;
-  height: 120px;
+
   animation-fill-mode: forwards;
   
 }
+
+
 
 @keyframes loader1 {
   0% {
@@ -114,7 +116,7 @@ header h1 {
   margin-left: auto;
   margin-right: auto;
 }
-
+ 
 nav {
   text-align: center;
 }
