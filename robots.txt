@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://gsnailg.github.io/sitemap.xml
