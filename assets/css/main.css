@@ -7,6 +7,13 @@
   padding: 0;
 }
 
+:root {
+    --main-dark: #263437;
+    --cd-ring: #D3D3D3;
+    --main-light: #E5E5E5;
+    --blog-boat: -180deg;
+}
+
 article,
 aside,
 footer,
@@ -133,7 +140,6 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  color: var(--headings-color);
   font-family: Arial, Helvetica, sans-serif;
   font-variation-settings: "wght" var(--headings-weight);
   font-style: var(--headings-style);
@@ -143,6 +149,13 @@ h6 {
   line-height: var(--headings-line-height);
   margin-top: calc(var(--baseline) * 6 + 1vw);
   text-transform: var(--headings-transform);
+      background: var(--main-dark) none repeat scroll 0 0;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+
 }
 
 h1,
@@ -150,6 +163,12 @@ h1,
   font-size: clamp(1.5710900065rem, 1.5710900065rem + 1.424540906 * (100vw - 20rem) / 70, 2.9956309125rem);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+      background: var(--main-dark) none repeat scroll 0 0;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    display: inline;
+    text-decoration: none;
+    color: #fff;
 }
 
 h2,
