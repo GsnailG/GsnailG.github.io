@@ -85,7 +85,7 @@ body {
 }
 
 a {
-  color: var(--link-color);
+  color: white;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
 }
@@ -174,6 +174,7 @@ h1,
 h2,
 .h2 {
   font-size: clamp(1.3808408252rem, 1.3808408252rem + 0.9332127447 * (100vw - 20rem) / 70, 2.3140535699rem);
+  color: #fff;
 }
 
 h3,
